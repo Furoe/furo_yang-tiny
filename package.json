@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  },
+  "name": "@furo_yang/tiny",
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc -w",
+    "build": "./node_modules/.bin/tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "keywords": [
+    "tiny",
+    "npm",
+    "package",
+    "furo_yang"
+  ],
+  "author": "furo_yang",
+  "license": "MIT",
+  "description": "test for npm package"
+}
